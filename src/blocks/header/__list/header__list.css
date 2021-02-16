@@ -1,0 +1,12 @@
+.header__list {
+  position: absolute;
+  width: 100%;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  z-index: 1;
+}
+
+.header__list_hidden {
+  visibility: hidden;
+}

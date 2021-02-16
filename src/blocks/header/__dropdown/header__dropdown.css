@@ -1,0 +1,13 @@
+.header__dropdown {
+  display: flex;
+  list-style: none;
+  margin: 0 0 0 20px;
+  padding: 0;
+}
+
+.header__dropdown::after {
+  content: "";
+  background: url('../../../images/arrow-down.svg') no-repeat center;
+  width: 20px;
+  height: 20px;
+}

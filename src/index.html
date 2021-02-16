@@ -1,12 +1,58 @@
 <!DOCTYPE html>
 <html lang="ru">
+
 <head>
   <meta charset="UTF-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Document</title>
+  <title>Top 3D Group</title>
 </head>
-<body>
+
+<body class="body">
+  <header class="header">
+    <div class="header__contacts">
+
+      <div class="header__contacts-column">
+
+        <ul class="header__dropdown">
+          <li class="header__dropdown-content">Санкт-Петербург
+            <ul class="header__list header__list_hidden">
+              <li class="header__list-element">Москва</li>
+              <li class="header__list-element">Казань</li>
+            </ul>
+          </li>
+        </ul>
+        <a class="header__link" href="tel:+78126135838">+7 (812) 613-58-38</a>
+        <span class="header__text">Пн–пт 10:00–19:00, сб-вс 10:00–17:00</span>
+      </div>
+
+      <div class="header__contacts-column">
+        <a class="header__link" href="#">Напишите нам</a>
+        <a class="header__link" href="#">Свяжитесь с директором</a>
+        <div class="header__social-wrapper">
+          <img class="header__social" src="<%=require('./images/telegram.svg')%>" alt="Telegram">
+          <img class="header__social" src="<%=require('./images/skype.svg')%>" alt="Skype">
+          <img class="header__social" src="<%=require('./images/phone.svg')%>" alt="Phone">
+        </div>
+      </div>
+
+    </div>
+    <div class="header__wrapper">
+      <img src="./images/telegram.svg" alt="logo">
+      <span class="header__tagline"></span>
+
+    </div>
+    <nav class="header__nav">
+      <ul class="header__list">
+        <li class="header__list-element">3D-принтеры</li>
+        <li class="header__list-element">3D-сканеры</li>
+        <li class="header__list-element">Станки</li>
+        <li class="header__list-element"></li>
+        <li class="header__list-element"></li>
+      </ul>
+    </nav>
+  </header>
 
 </body>
+
 </html>

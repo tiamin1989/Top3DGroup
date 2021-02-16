@@ -1,0 +1,14 @@
+@import '../header/__contacts/header__contacts.css';
+@import '../header/__contacts-column/header__contacts-column.css';
+@import '../header/__link/header__link.css';
+@import '../header/__dropdown/header__dropdown.css';
+@import '../header/__dropdown-content/header__dropdown-content.css';
+@import '../header/__list/header__list.css';
+@import '../header/__list-element/header__list-element.css';
+@import '../header/__social/header__social.css';
+@import '../header/__text/header__text.css';
+@import '../header/__social-wrapper/header__social-wrapper.css';
+
+.header {
+
+}

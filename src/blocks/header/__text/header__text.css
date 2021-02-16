@@ -1,0 +1,5 @@
+@media all and (max-width: 645px) {
+  .header__text {
+    margin: 0 auto;
+  }
+}

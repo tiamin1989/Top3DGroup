@@ -1,0 +1,5 @@
+@media all and (max-width: 541px) {
+  .header__social-wrapper {
+    margin: 0 auto;
+  }
+}

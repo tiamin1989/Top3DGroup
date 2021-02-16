@@ -1,0 +1,21 @@
+.header__contacts {
+  padding: 0 7vw;
+  min-height: 32px;
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  align-items: center;
+  font-family: Open Sans;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000000;
+  background-color: #FED600;
+}
+
+@media all and (max-width: 1240px) {
+  .header__contacts {
+    flex-direction: column;
+  }
+}
