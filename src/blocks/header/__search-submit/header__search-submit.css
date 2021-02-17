@@ -1,0 +1,19 @@
+.header__search-submit {
+  width: 89px;
+  height: 36px;
+  border: 2px solid #D2001C;
+  border-radius: 4px;
+  background: transparent;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #D2001C;
+  cursor: pointer;
+}
+
+.header__search-submit:hover {
+  border: 2px solid #f50928;
+}

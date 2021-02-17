@@ -1,6 +1,5 @@
 .header__dropdown {
   display: flex;
-  list-style: none;
   margin: 0 0 0 20px;
   padding: 0;
 }

@@ -1,0 +1,13 @@
+.header__search-form {
+  margin: 15px 0 0px;
+  width: 100%;
+  padding: 0 4px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 515px;
+  height: 44px;
+  background: #FFF;
+  border: 1px solid #BDBDBD;
+  border-radius: 4px;
+}

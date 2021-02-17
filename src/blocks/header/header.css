@@ -8,6 +8,18 @@
 @import '../header/__social/header__social.css';
 @import '../header/__text/header__text.css';
 @import '../header/__social-wrapper/header__social-wrapper.css';
+@import '../header/__wrapper/header__wrapper.css';
+@import '../header/__logo/header__logo.css';
+@import '../header/__tagline/header__tagline.css';
+@import '../header/__logo-wrapper/header__logo-wrapper.css';
+@import '../header/__ya-market/header__ya-market.css';
+@import '../header/__search-form/header__search-form.css';
+@import '../header/__search-input/header__search-input.css';
+@import '../header/__search-submit/header__search-submit.css';
+@import '../header/__login/header__login.css';
+@import '../header/__basket/header__basket.css';
+@import '../header/__nav/header__nav.css';
+@import '../header/__nav-list/header__nav-list.css';
 
 .header {
 

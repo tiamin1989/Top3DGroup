@@ -1,7 +1,19 @@
 .header__list-element {
-  padding: 5px 5px 5px 0;
+  cursor: pointer;
+  padding: 5px;
+  background-color: #fed600;
+  position: relative;
+  z-index: 1;
 }
 
+.header__list-element:hover {
+  background-color: #fce97d;
+}
 
+.header__list-element_yellow {
+  background-color: #fed600;
+}
 
-
+.header__list-element_yellow:hover {
+  background-color: #fce97d;
+}

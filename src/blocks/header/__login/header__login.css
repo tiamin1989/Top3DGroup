@@ -1,0 +1,30 @@
+.header__login {
+  margin: 14px 0 0px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 85px;
+  height: 24px;
+  border: 0;
+  background: transparent;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  color: #222222;
+  cursor: pointer;
+}
+
+.header__login:hover {
+  box-shadow: 0 0 3px 0 #ddd;
+  /* outline: 1px solid #bdbdbd; */
+}
+
+.header__login::before {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  content: "";
+  background-image: url('../../../images/login.svg');
+}

@@ -1,0 +1,32 @@
+.header__basket {
+  margin: 15px 0 0;
+  padding: 0 15px;
+  width: 160px;
+  height: 36px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: 0;
+  background: #D2001C;
+  border-radius: 4px;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 600;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #FFF;
+  cursor: pointer;
+}
+
+.header__basket:hover {
+  background: #ef112f;
+}
+
+.header__basket::before {
+  display: inline-block;
+  content: "";
+  width: 24px;
+  height: 24px;
+  background-image: url('../../../images/basket.svg');
+}

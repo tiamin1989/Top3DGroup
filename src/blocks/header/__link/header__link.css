@@ -4,6 +4,6 @@
   text-decoration: none;
 }
 
-.header__link:hover, .header__link:focus {
+.header__link:hover {
   opacity: .6;
 }

@@ -1,3 +1,8 @@
 .header__social {
   margin-left: 16px;
+  cursor: pointer;
+}
+
+.header__social:hover, .header__social:focus {
+  opacity: .6;
 }
