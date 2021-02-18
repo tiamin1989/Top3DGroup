@@ -1,12 +1,27 @@
 .header__dropdown {
   display: flex;
-  margin: 0 0 0 20px;
+  margin: 0;
   padding: 0;
+  font-weight: inherit;
+}
+
+.header__dropdown_light {
+  display: flex;
+  margin: 0 0 20px;
+  padding: 0;
+  font-weight: inherit;
 }
 
 .header__dropdown::after {
   content: "";
   background: url('../../../images/arrow-down.svg') no-repeat center;
+  width: 20px;
+  height: 20px;
+}
+
+.header__dropdown_light::after {
+  content: "";
+  background: url('../../../images/arrow-down-light.svg') no-repeat center;
   width: 20px;
   height: 20px;
 }

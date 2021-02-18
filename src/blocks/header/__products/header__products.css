@@ -1,5 +1,20 @@
 .header__products {
   margin: 21px 0 0;
+  padding: 0 7vw 0;
   display: flex;
-  justify-content: space-around
+  justify-content: space-between;
+  white-space: nowrap;
+  font-family: 'Open Sans', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  color: #000;
+}
+
+@media all and (max-width: 1240px) {
+  .header__products {
+    padding: 0 2vw;
+    flex-wrap: wrap;
+  }
 }
