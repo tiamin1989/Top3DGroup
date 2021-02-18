@@ -1,13 +1,13 @@
 .header__list-element {
   cursor: pointer;
   padding: 5px;
-  background-color: #fed600;
+  background-color: #fff;
   position: relative;
   z-index: 1;
 }
 
 .header__list-element:hover {
-  background-color: #fce97d;
+  background-color: #f1f1f1;
 }
 
 .header__list-element_yellow {

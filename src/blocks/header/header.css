@@ -20,6 +20,9 @@
 @import '../header/__basket/header__basket.css';
 @import '../header/__nav/header__nav.css';
 @import '../header/__nav-list/header__nav-list.css';
+@import '../header/__nav-list-element/header__nav-list-element.css';
+@import '../header/__line/header__line.css';
+@import '../header/__products/header__products.css';
 
 .header {
 

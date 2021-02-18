@@ -11,3 +11,9 @@
   line-height: 18px;
   color: #000000;
 }
+
+@media all and (max-width: 1120px) {
+  .header__nav-list {
+    flex-wrap: wrap;
+  }
+}

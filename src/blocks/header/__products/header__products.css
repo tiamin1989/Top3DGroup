@@ -1,0 +1,5 @@
+.header__products {
+  margin: 21px 0 0;
+  display: flex;
+  justify-content: space-around
+}
