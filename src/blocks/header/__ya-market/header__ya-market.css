@@ -1,6 +1,6 @@
 .header__ya-market {
-  margin: 15px 0 0;
-  width: 105px;
+  margin: 15px 10px 0 10px;
+  min-width: 105px;
   height: 60px;
   box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.16);
   border-radius: 8px;

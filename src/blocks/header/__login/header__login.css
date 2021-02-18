@@ -1,10 +1,10 @@
 .header__login {
   border-radius: 8px;
-  margin: 14px 0 0px;
+  margin: 14px 10px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  width: 85px;
+  min-width: 85px;
   height: 24px;
   border: 0;
   background: transparent;

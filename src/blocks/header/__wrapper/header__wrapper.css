@@ -2,7 +2,20 @@
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 0 7.1vw;
+  padding: 0 7vw;
   display: flex;
   align-items: center;
+}
+
+@media all and (max-width: 1240px) {
+  .header__wrapper {
+    padding: 0 2vw;
+  }
+}
+
+@media all and (max-width: 1120px) {
+  .header__wrapper {
+    justify-content: center;
+    flex-wrap: wrap;
+  }
 }

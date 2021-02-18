@@ -1,13 +1,26 @@
 .header__search-form {
-  margin: 15px 0 0px;
+  margin: 15px 0 0 10px;
   width: 100%;
   padding: 0 4px 0;
   display: flex;
   justify-content: space-between;
   align-items: center;
-  max-width: 515px;
+  max-width: 510px;
+  min-width: 395px;
   height: 44px;
   background: #FFF;
   border: 1px solid #BDBDBD;
   border-radius: 4px;
+}
+
+@media all and (max-width: 1120px) {
+  .header__search-form {
+    order: 5;
+  }
+}
+
+@media all and (max-width: 448px) {
+  .header__search-form {
+    min-width: unset;
+  }
 }
