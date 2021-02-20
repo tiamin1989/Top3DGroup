@@ -7,5 +7,22 @@
 
 .video {
   background: #F9F9F9;
-  padding: 73px 120px 40px;
+  padding: 73px 135px 40px;
+}
+
+.video {
+  background: #F9F9F9;
+  padding: 73px 135px 40px;
+}
+
+@media (max-width: 1340px) {
+  .video {
+    padding: 73px 20px 40px;
+  }
+}
+
+@media (max-width: 615px) {
+  .video {
+    padding: 73px 15px 40px;
+  }
 }
