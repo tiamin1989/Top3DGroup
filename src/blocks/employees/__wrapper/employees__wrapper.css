@@ -1,4 +1,6 @@
 .employees__wrapper {
+  width: 100%;
+  max-width: 1228px;
   margin: 35px 0 0;
   display: flex;
   justify-content: space-between;
@@ -12,14 +14,4 @@
   .employees__wrapper {
     flex-direction: column;
   }
-}
-
-@media all and (min-width: 1440px) {
-  .employees__wrapper {
-    width: 1440px;
-  }
-}
-
-.employees__wrapper {
-
 }

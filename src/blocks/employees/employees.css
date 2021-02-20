@@ -13,7 +13,7 @@
 @import url('./__paragraph-link/employees__paragraph-link.css');
 
 .employees {
-  padding: 70px 6vw 0 7vw;
+  padding: 70px 90px 0 105px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -33,6 +33,6 @@
 
 @media all and (min-width: 1440px) {
   .employees {
-    padding: 70px 3vw 0 3vw;
+    padding: 70px 90px 0 105px;
   }
 }
