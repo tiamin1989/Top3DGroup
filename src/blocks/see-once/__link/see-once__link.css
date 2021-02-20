@@ -4,11 +4,27 @@
   font-weight: normal;
   font-size: 16px;
   line-height: 19px;
-  /* text-decoration: underline; */
   text-decoration: none;
   border-bottom: 2px solid rgb(100 115 130 / 50%);
   color: #4D4D4D;
   position: relative;
+}
+
+@media all and (max-width: 1240px) {
+  .see-once__link {
+    margin: 10px 15px 0;
+  }
+}
+
+.see-once__link::after {
+  position: absolute;
+  right: -20px;
+  top: 5px;
+  width: 7px;
+  height: 10px;
+  content: "";
+  background: url('../../../images/arrow-right-light.svg') no-repeat 50%;
+  background-size: 100%;
 }
 
 .see-once__link:hover {
@@ -16,7 +32,7 @@
   color: #D2001C;
 }
 
-.see-once__link::after {
+.see-once__link:hover::after {
   position: absolute;
   right: -20px;
   top: 5px;
