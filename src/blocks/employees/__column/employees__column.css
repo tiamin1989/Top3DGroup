@@ -2,6 +2,8 @@
   margin: 0;
 }
 
-.employees__column:first-child {
-  min-width: 36vw;
+@media all and (max-width: 1440px) {
+  .employees__column:first-child {
+    min-width: 36vw;
+  }
 }
