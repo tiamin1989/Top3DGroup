@@ -14,5 +14,6 @@
 @media all and (max-width: 870px) {
   .employees__paragraph {
     padding: 0 10px 0;
+    max-width: unset;
   }
 }
