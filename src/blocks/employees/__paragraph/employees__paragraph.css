@@ -1,0 +1,18 @@
+.employees__paragraph {
+  margin: 18px 0 0;
+  max-width: 708px;
+  font-family: 'SF Pro Text', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  text-align: justify;
+  letter-spacing: -0.7px;
+  color: #4D4D4D;
+}
+
+@media all and (max-width: 870px) {
+  .employees__paragraph {
+    padding: 0 10px 0;
+  }
+}

@@ -1,0 +1,27 @@
+/* .employees__column {
+
+}
+
+.employees__column:first-child {
+  min-width: 36vw;
+}
+
+.employees__column:not(:first-child) {
+  min-width: 708px;
+}
+
+@media all and (max-width: 1240px) {
+  .employees__column:not(:first-child) {
+    min-width: unset;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .employees__column:first-child {
+    min-width: unset;
+  }
+} */
+
+.employees__column {
+
+}

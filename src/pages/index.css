@@ -1,6 +1,10 @@
 @import url('../vendor/normalize.css');
 @import url('../fonts/open-sans.css');
+@import url('../fonts/sf-pro-display.css');
+@import url('../fonts/sf-pro-text.css');
 @import url('../blocks/header/header.css');
+@import url('../blocks/employees/employees.css');
+@import url('../blocks/see-once/see-once.css');
 
 .body {
   max-width: 1440px;

@@ -1,9 +1,23 @@
 .header__list-element {
+  font-weight: 600;
   cursor: pointer;
   padding: 5px;
   background-color: #fff;
   position: relative;
   z-index: 1;
+  border: 1px solid #000;
+}
+
+.header__list-element:not(:last-child) {
+  border-bottom: 0;
+}
+
+.header__list-element:first-child {
+  border-radius: 3px 3px 0 0;
+}
+
+.header__list-element:last-child {
+  border-radius: 0 0 3px 3px;
 }
 
 .header__list-element:hover {

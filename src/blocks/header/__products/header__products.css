@@ -1,6 +1,6 @@
 .header__products {
   margin: 21px 0 0;
-  padding: 0 7vw 0;
+  padding: 0 108px 0 124px;
   display: flex;
   justify-content: space-between;
   white-space: nowrap;
@@ -16,5 +16,6 @@
   .header__products {
     padding: 0 2vw;
     flex-wrap: wrap;
+    justify-content: center;
   }
 }

@@ -6,10 +6,10 @@
 }
 
 .header__dropdown_light {
-  display: flex;
+  /* display: flex; */
   margin: 0 0 20px;
-  padding: 0;
-  font-weight: inherit;
+  /* padding: 0;
+  font-weight: inherit; */
 }
 
 .header__dropdown::after {
@@ -20,8 +20,8 @@
 }
 
 .header__dropdown_light::after {
-  content: "";
+  /* content: ""; */
   background: url('../../../images/arrow-down-light.svg') no-repeat center;
-  width: 20px;
-  height: 20px;
+  /* width: 20px;
+  height: 20px; */
 }

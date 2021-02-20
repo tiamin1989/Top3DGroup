@@ -1,5 +1,5 @@
 .header__contacts {
-  padding: 0 7vw;
+  /* padding: 0 7vw; */
   min-height: 32px;
   display: flex;
   justify-content: space-between;
@@ -12,6 +12,18 @@
   line-height: 18px;
   color: #000000;
   background-color: #FED600;
+}
+
+@media all and (min-width: 1441px) {
+  .header__contacts {
+    padding: 0 100px 0;
+  }
+}
+
+@media all and (max-width: 1440px) {
+  .header__contacts {
+    padding: 0 100px 0;
+  }
 }
 
 @media all and (max-width: 1240px) {

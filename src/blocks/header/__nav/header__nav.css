@@ -1,9 +1,15 @@
 .header__nav {
-  padding: 13px 7vw 7px 7vw;
+  padding: 13px 80px 7px 95px;
 }
 
 @media all and (max-width: 1240px) {
   .header__nav {
     padding: 13px 2vw;
+  }
+}
+
+@media all and (max-width: 1138px) {
+  .header__nav {
+    padding: 13px 3vw 7px 3vw;
   }
 }

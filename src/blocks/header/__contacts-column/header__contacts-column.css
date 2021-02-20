@@ -11,3 +11,11 @@
     flex-direction: column;
   }
 }
+
+@media all and (max-width: 340px) {
+  .header__contacts-column {
+    justify-content: space-between;
+    align-items: center;
+    flex-direction: column;
+  }
+}

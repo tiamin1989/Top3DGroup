@@ -1,3 +1,15 @@
 .header__nav-list-element {
-  margin: 0 0 15px;
+  margin: 0 10px 15px;
+}
+
+@media all and (max-width: 1240px) {
+  .header__nav-list-element {
+    margin: 0 0px 15px;
+  }
+}
+
+@media all and (max-width: 1410px) {
+  .header__nav-list-element {
+    margin: 0 0px 15px;
+  }
 }

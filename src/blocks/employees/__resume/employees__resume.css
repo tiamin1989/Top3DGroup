@@ -1,0 +1,29 @@
+.employees__resume {
+  margin: 38px 0 0;
+  cursor: pointer;
+  width: 280px;
+  height: 44px;
+  border: 0;
+  font-family: 'SF Pro Text', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 19px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  letter-spacing: -0.7px;
+  color: #FFFFFF;
+  background-color: #D2001C;
+  border-radius: 4px;
+}
+
+.employees__resume:hover {
+  background-color: #ef112f;
+}
+
+@media all and (max-width: 870px) {
+  .employees__resume {
+    margin: 38px auto 0;
+  }
+}

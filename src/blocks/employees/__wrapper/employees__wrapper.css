@@ -1,0 +1,25 @@
+.employees__wrapper {
+  margin: 35px 0 0;
+  display: flex;
+  justify-content: space-between;
+}
+
+.employees__wrapper:first-child {
+  max-width: 520px;
+}
+
+@media all and (max-width: 870px) {
+  .employees__wrapper {
+    flex-direction: column;
+  }
+}
+
+@media all and (min-width: 1440px) {
+  .employees__wrapper {
+    width: 1440px;
+  }
+}
+
+.employees__wrapper {
+
+}

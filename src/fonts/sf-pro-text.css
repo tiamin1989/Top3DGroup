@@ -1,0 +1,11 @@
+@font-face {
+  font-family: 'SF Pro Text';
+  font-style: normal;
+  font-weight: 400;
+  src: url('./sf-pro-text/SFProTextRegular.eot'); /* IE9*/
+  src: url('./sf-pro-text/SFProTextRegular.eot?#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url('./sf-pro-text/SFProTextRegular.woff2') format('woff2'), /* chrome、firefox */
+  url('./sf-pro-text/SFProTextRegular.woff') format('woff'), /* chrome、firefox */
+  url('./sf-pro-text/SFProTextRegular.ttf') format('truetype'), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+  url('./sf-pro-text/SFProTextRegular.svg#SF Pro Text Regular') format('svg'); /* iOS 4.1- */
+}

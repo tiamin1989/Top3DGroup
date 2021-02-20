@@ -1,0 +1,17 @@
+.employees__title {
+  max-width: 330px;
+  font-family: 'SF Pro Display', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 27px;
+  line-height: 32px;
+  color: #000;
+}
+
+@media all and (max-width: 870px) {
+  .employees__title {
+    max-width: 600px;
+    margin: 0 auto 0;
+    text-align: center;
+  }
+}

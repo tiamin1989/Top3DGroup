@@ -1,0 +1,19 @@
+.employees__agreement {
+  margin: 20px 0 0;
+  max-width: 280px;
+  font-family: 'SF Pro Text', Arial, Helvetica, sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 17px;
+  display: flex;
+  align-items: center;
+  letter-spacing: -0.7px;
+  color: #C4C4C4;
+}
+
+@media all and (max-width: 870px) {
+  .employees__agreement {
+    margin: 20px auto 0;
+  }
+}
