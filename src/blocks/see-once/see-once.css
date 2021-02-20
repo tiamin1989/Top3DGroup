@@ -5,5 +5,11 @@
 @import url('./__wrapper/see-once__wrapper.css');
 
 .see-once {
+  padding: 0 90px 0 0;
+}
 
+@media all and (max-width: 1240px) {
+  .see-once {
+    padding: 0;
+  }
 }
