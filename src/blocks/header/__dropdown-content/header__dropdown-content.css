@@ -1,5 +1,5 @@
 .header__dropdown-content {
-  padding: 0 0 0 20px;
+  padding: 0 0 0 10px;
   position: relative;
   font-family: 'Open Sans', Arial, Helvetica, sans-serif;
   font-style: normal;
@@ -7,6 +7,11 @@
   line-height: 18px;
   cursor: pointer;
 }
+
+.header__dropdown-content_city {
+  padding: 0 0 0 20px;
+}
+
 
 .header__dropdown-content > .header__list {
   display: none;
