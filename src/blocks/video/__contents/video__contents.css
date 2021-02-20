@@ -1,0 +1,5 @@
+.video__contents {
+  padding: 0;
+  display: flex;
+  justify-content: space-between;
+}

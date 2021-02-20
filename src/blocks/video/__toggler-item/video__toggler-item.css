@@ -1,0 +1,21 @@
+.video__toggler-item {
+  background: url('../../../images/arrow-right-light.svg') no-repeat 55%;
+  background-size: 35%;
+  width: 40px;
+  height: 40px;
+  display: block;
+  border: 1px solid #E5E5E5;
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
+  cursor: pointer;
+}
+
+.video__toggler-item_left {
+  transform: scale(-1, 1);
+}
+
+.video__toggler-item:hover {
+  border: 1px solid #9b9999;
+  border-top-right-radius: 20%;
+  border-bottom-right-radius: 20%;
+}

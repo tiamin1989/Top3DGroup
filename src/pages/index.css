@@ -5,6 +5,7 @@
 @import url('../blocks/header/header.css');
 @import url('../blocks/employees/employees.css');
 @import url('../blocks/see-once/see-once.css');
+@import url('../blocks/video/video.css');
 
 .body {
   max-width: 1440px;

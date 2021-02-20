@@ -1,0 +1,11 @@
+@import url('./__contents/video__contents.css');
+@import url('./__title/video__title.css');
+@import url('./__toggler-item/video__toggler-item.css');
+@import url('./__toggler/video__toggler.css');
+@import url('./__videos-item/video__videos-item.css');
+@import url('./__videos/video__videos.css');
+
+.video {
+  background: #F9F9F9;
+  padding: 73px 120px 40px;
+}
