@@ -1,5 +1,29 @@
 .video__videos-item {
-  margin: 0;
-  max-width: 550px;
+  position: relative;
+  overflow: hidden;
+  width: 100%;
+  padding-top: 56.25%;
+  /* padding-top: 27.25%; */
+  display: block;
+}
+
+.video__videos-item iframe {
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+
+}
+
+.video__iframe {
   max-height: 320px;
+}
+
+@media (max-width: 870px) {
+  .video__iframe {
+    max-height: 458px;
+  }
 }

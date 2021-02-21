@@ -4,12 +4,19 @@
   display: flex;
   justify-content: space-between;
   padding: 45px 0 0;
-  gap: 1rem;
+  gap: 70px;
 }
 
-@media (max-width: 1380px) {
+@media (max-width: 1030px) {
+  .video__videos {
+    gap: 30px;
+  }
+}
+
+@media (max-width: 870px) {
   .video__videos {
     flex-direction: column;
     align-items: center;
   }
 }
+

@@ -8,10 +8,23 @@
 .video {
   background: #F9F9F9;
   padding: 73px 115px 40px 135px;
+  max-height: 440px;
 }
 
 @media (max-width: 1439px) {
   .video {
     padding: 73px 8.1vw 40px 9.4vw;
+  }
+}
+
+@media (max-width: 1240px) {
+  .video {
+    padding: 73px 2.1vw 40px 2.4vw;
+  }
+}
+
+@media (max-width: 870px) {
+  .video {
+    max-height: 1065px;
   }
 }
