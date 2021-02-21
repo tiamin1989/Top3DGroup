@@ -10,14 +10,8 @@
   padding: 73px 115px 40px 135px;
 }
 
-@media (max-width: 1340px) {
+@media (max-width: 1439px) {
   .video {
-    padding: 73px 20px 40px;
-  }
-}
-
-@media (max-width: 615px) {
-  .video {
-    padding: 73px 15px 40px;
+    padding: 73px 8.1vw 40px 9.4vw;
   }
 }
