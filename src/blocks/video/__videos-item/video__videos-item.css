@@ -1,19 +1,5 @@
 .video__videos-item {
-  margin: 0 30px 0;
+  margin: 0;
   width: 550px;
   height: 320px;
-}
-
-.video__videos-item:not(:first-child) {
-  margin: 0 0 0 70px;
-}
-
-.video__videos-item:first-child {
-  margin: 0;
-}
-
-@media (max-width: 1340px) {
-  .video__videos-item:not(:first-child) {
-    margin: 0;
-  }
 }
