@@ -9,6 +9,7 @@
   background: #F9F9F9;
   padding: 73px 115px 40px 135px;
   max-height: 440px;
+  overflow: hidden;
 }
 
 @media (max-width: 1439px) {
