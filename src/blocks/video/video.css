@@ -4,6 +4,7 @@
 @import url('./__toggler/video__toggler.css');
 @import url('./__videos-item/video__videos-item.css');
 @import url('./__videos/video__videos.css');
+@import url('./__iframe/video__iframe.css');
 
 .video {
   background: #F9F9F9;

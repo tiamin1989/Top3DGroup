@@ -15,5 +15,6 @@
 @media all and (max-width: 870px) {
   .employees__agreement {
     margin: 20px auto 0;
+    text-align: center;
   }
 }

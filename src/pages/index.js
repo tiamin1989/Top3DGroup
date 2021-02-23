@@ -10,4 +10,4 @@ window.onload = () => {
     2
   );
   slider.addListeners();
-}
+};

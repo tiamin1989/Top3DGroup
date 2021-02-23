@@ -1,0 +1,9 @@
+.video__iframe {
+  max-height: 320px;
+}
+
+@media (max-width: 870px) {
+  .video__iframe {
+    max-height: 458px;
+  }
+}
